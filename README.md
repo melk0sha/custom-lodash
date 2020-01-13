@@ -12,7 +12,6 @@ That task is to implement 'custom' version of the lodash library following next 
 - [chunk](https://lodash.com/docs/4.17.15#chunk)
 - [compact](https://lodash.com/docs/4.17.15#compact)
 - [drop](https://lodash.com/docs/4.17.15#drop)
-- [dropWhile](https://lodash.com/docs/4.17.15#dropWhile)
 - [take](https://lodash.com/docs/4.17.15#take)
 - [filter](https://lodash.com/docs/4.17.15#filter)
 - [find](https://lodash.com/docs/4.17.15#find)
