@@ -25,5 +25,5 @@ function find(arr, predicate, num = 0) {
         throw new TypeError(`${arr} is not an array`);
     }
 
-    return arr.find((el, idx) => (idx >= num) ? predicate(el, idx, arr) : false);
+    return arr.find((el, idx, arr) => (idx >= num) ? predicate(el, idx, arr) : false);
 }
