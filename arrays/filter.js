@@ -13,7 +13,7 @@
  *      { 'user': 'fred',   'age': 40, 'active': false }
  * ];
  * 
- * filter(users, function(value) { return !value.active; })    => object for ['fred']
+ * filter(users, function(value) { return !value.active; })       => object for ['fred']
  * filter(users, function(value, index) { return index < 1; })    => object for ['barney']
 */
 
