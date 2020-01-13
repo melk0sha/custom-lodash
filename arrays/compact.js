@@ -10,5 +10,9 @@
 */
 
 function compact(arr) {
+    if (!Array.isArray(arr)) {
+        throw new TypeError(`${arr} is not an array`);
+    }
+    
     return arr.filter((el) => Boolean(el) === true);
 }
