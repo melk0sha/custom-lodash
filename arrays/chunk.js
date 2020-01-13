@@ -11,7 +11,7 @@
  * chunk(['a', 'b', 'c', 'd'], 3)     => [['a', 'b', 'c'], ['d']]
 */
 
-function chunk(arr, num) {
+function chunk(arr, num = 1) {
     if (!Array.isArray(arr)) {
         throw new TypeError(`${arr} is not an array`);
     }
